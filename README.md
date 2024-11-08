@@ -18,6 +18,10 @@ LCD Display (to show LIDAR and PWM values)
 Resistors (10kΩ, 1kΩ)
 Buzzer (optional, for feedback or alerts)
 Proteus 8 Professional (for simulation)
+## Architecture
+![image](https://github.com/user-attachments/assets/9865959f-77db-4b18-8c3b-53d1b32a4a5b)
+
+
 ## How It Works
 The LIDAR sensor continuously measures the surrounding light intensity. Based on the sensor readings, the Arduino controls the brightness of the connected bulb using PWM signals. The system gradually adjusts the light brightness to match the detected external light conditions.
 
